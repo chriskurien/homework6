@@ -29,7 +29,7 @@ function increaseSpeed() {
 } 
 
 function skipAhead() {
-	if (video.currentTime +60 >video.document){
+	if (video.currentTime +60 >video.duration){
 		playVid();
 		video.pause();
 	}
